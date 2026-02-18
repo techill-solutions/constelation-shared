@@ -1,0 +1,32 @@
+# Shared Libraries .gitignore
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+composer.phar
+
+# Testing
+.phpunit.result.cache
+.phpunit.cache
+coverage/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.php-cs-fixer.cache
+.phpstan.cache
+
+# Logs
+*.log
