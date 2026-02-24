@@ -13,10 +13,15 @@
     "autoload": {
         "psr-4": {
             "Constelation\\Shared\\": "./",
+            "Constelation\\Shared\\Core\\": "core/src/",
             "Constelation\\Shared\\Auth\\": "core/src/Auth/",
             "Constelation\\Shared\\Logging\\": "core/src/Logging/",
             "Constelation\\Shared\\Queue\\": "core/src/Queue/",
-            "Constelation\\Shared\\Utils\\": "core/src/Utils/"
+            "Constelation\\Shared\\Utils\\": "core/src/Utils/",
+            "Constelation\\Shared\\Support\\": "core/src/Support/",
+            "Constelation\\Shared\\Traits\\": "core/src/Traits/",
+            "Constelation\\Shared\\Validation\\": "core/src/Validation/",
+            "Constelation\\Shared\\Events\\": "core/src/Events/"
         }
     },
     "files": [
